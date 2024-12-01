@@ -1,0 +1,31 @@
+@import "../../utils/colors";
+
+.root {
+  background-color: $colorButtonDefault;
+  border: none;
+  border-radius: 50px;
+  transition: background-color 500ms ease-in-out;
+
+
+  &:hover {
+    background-color: $colorHoverButtonDefault;
+    cursor: pointer;
+  }
+
+  &:disabled {
+    background-color: $colorDisableButtonDefault;
+  }
+}
+
+.small {
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+}
+
+.big {
+  width: 200px;
+  height: 70px;
+  font-size: 18px;
+  font-weight: bold;
+}

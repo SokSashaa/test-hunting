@@ -1,0 +1,21 @@
+.anim-enter {
+  opacity: 0;
+  transform: scale(0.9); //90% размера
+}
+
+.anim-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.anim-exit {
+  opacity: 1;
+}
+
+.anim-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+

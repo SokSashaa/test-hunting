@@ -1,0 +1,23 @@
+@import "../../utils/colors";
+
+.root{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+  justify-content: center;
+  align-items: center;
+
+  .title{
+    font-size: 30px;
+
+    .cross {
+      color: $colorCross;
+    }
+
+    .circle {
+      color: $colorCircle;
+    }
+  }
+}
+
+

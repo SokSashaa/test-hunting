@@ -1,0 +1,24 @@
+@import "../../../utils/colors";
+.root{
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 5px 15px;
+  width: 100%;
+  font-size: 17px;
+
+  .name_win{
+    font-size: 1.3em;
+
+    &.circle{
+      color:$colorCircle
+    }
+
+    &.cross{
+      color:$colorCross
+    }
+
+    &.draw{
+      color:$colorDraw;
+    }
+  }
+}
